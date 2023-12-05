@@ -1,0 +1,12 @@
+.dashboard {
+  background-color: #fff;
+  color: #000;
+}
+
+.dashboard .main-body {
+  padding: 20px;
+  /* padding-top: 60px; */
+  /* padding-bottom: 60px; */
+  background-color: #fff;
+  color: #000;
+}

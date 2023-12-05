@@ -1,0 +1,43 @@
+header.frontend {
+    background-color: #000;
+    color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+header.frontend h1 {
+    margin: 0;
+}
+
+header.frontend ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding: 0 20px;
+}
+
+header.frontend ul li {
+    margin-right: 20px;
+}
+
+header.frontend ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header.frontend ul li a:hover {
+    color: #ccc;
+}
+
+header.frontend ul li a.active {
+    color: #ccc;
+}

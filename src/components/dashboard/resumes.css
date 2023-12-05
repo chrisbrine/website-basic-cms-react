@@ -1,0 +1,116 @@
+table.item-list {
+  width: calc(100% - 2rem);
+  margin: 1rem;
+  border-collapse: collapse;
+}
+
+table.item-list tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+table.item-list tr th {
+  text-align: left;
+  text-decoration: underline;
+  padding: 0.5rem;
+}
+
+table.item-list tr td {
+  text-align: left;
+}
+
+table.item-list tr td a,
+table.item-list tr td a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a.create-new {
+  display: block;
+  width: calc(100% - 6rem);
+  text-align: center;
+  margin: 1rem 2rem;
+  padding: 1rem;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 2px #000;
+}
+
+a.create-new:hover {
+  background-color: #e2e2e2;
+}
+
+a.create-new:active {
+  box-shadow: 0px 0px 0px;
+}
+
+table.item-list .edit-button,
+table.item-list .delete-button {
+  display: inline-block;
+  margin: 0 0.5rem;
+  padding: 0.2rem 0.25rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  background-color: #ddd;
+  box-shadow: 2px 2px 2px #000;
+  color: #000;
+}
+
+table.item-list .edit-button:hover,
+table.item-list .delete-button:hover {
+  background-color: #e2e2e2;
+}
+
+table.item-list .edit-button:active,
+table.item-list .delete-button:active {
+  box-shadow: 0px 0px 0px;
+}
+
+table.item-list .actions {
+  text-align: right;
+}
+
+.empty-list h4 {
+  text-align: center;
+  margin: 1rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.form.error {
+  border-color: red;
+}
+
+h1.title {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+a.back {
+  display: block;
+  width: calc(100% - 6rem);
+  text-align: center;
+  margin: 1rem 2rem;
+  padding: 1rem;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 2px #000;
+}
+
+a.back:hover {
+  background-color: #e2e2e2;
+}
+
+a.back:active {
+  box-shadow: 0px 0px 0px;
+}

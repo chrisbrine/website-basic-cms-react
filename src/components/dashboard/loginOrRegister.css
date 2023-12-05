@@ -1,0 +1,66 @@
+.form p {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0rem;
+}
+
+.form {
+  position: relative;
+}
+
+.form .delete-button {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: 1px solid #333;
+  box-shadow: 2px 2px 2px #333;
+  background-color: #fff;
+}
+
+.form .delete-button:hover {
+  background-color: #eee;
+}
+
+.form .delete-button:active {
+  background-color: #ddd;
+  box-shadow: 0px 0px 0px;
+}
+
+.form div.submit-error {
+  color: #f00;
+  background-color: #ccc;
+  border: 2px solid #ff0000;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.form .button-secondary {
+  background-color: #ddd;
+  font-size: 1.2rem;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 2px #333;
+  margin: 0.5rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.form .button-secondary:hover {
+  background-color: #aaa;
+}
+
+.form .button-secondary:active {
+  background-color: #bbb;
+  box-shadow: 0px 0px 0px;
+}
