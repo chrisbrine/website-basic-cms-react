@@ -6,6 +6,7 @@ export interface ISettings {
   user_id: number;
   resume_id: number;
   about: string;
+  home: string;
 }
 
 export interface ISettingsOptional {
@@ -14,6 +15,7 @@ export interface ISettingsOptional {
   user_id?: number;
   resume_id?: number;
   about?: string;
+  home?: string;
 }
 
 export const SettingsDefault: ISettings = {
@@ -22,6 +24,7 @@ export const SettingsDefault: ISettings = {
   user_id: 1,
   resume_id: 1,
   about: '',
+  home: '',
 };
 
 export interface ISettingsAPI {

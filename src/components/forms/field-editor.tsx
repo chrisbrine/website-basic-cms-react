@@ -58,6 +58,8 @@ class InputEditor extends FieldBase {
           placeholder: this.state.props.placeholder,
           filePickerTypes: 'image',
           menubar: false,
+          block_unsupported_drop: true,
+          image_file_types: 'jpeg,jpg,jpe,jfi,jif,jfif,png,gif,bmp,webp',
           automatic_uploads: true,
           readonly: this.props.readonly,
           ai_request: (request: any, respondWith: any) => respondWith.string(() => Promise.reject("See docs to implement AI Assistant")),

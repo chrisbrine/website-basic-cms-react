@@ -42,6 +42,12 @@ export default function Settings() {
           about: args.value,
         });
         break;
+      case 'home':
+        setSettingsState({
+          ...settingsState,
+          home: args.value,
+        });
+        break;
       default:
         break;
     }
@@ -101,6 +107,13 @@ export default function Settings() {
         name='about'
         placeholder='Enter the about for the site'
         value={settingsState.about}
+        onChange={setSettings}
+      />
+      <Editor
+        label='Home Page Content'
+        name='home'
+        placeholder='Enter the content for the home page'
+        value={settingsState.home}
         onChange={setSettings}
       />
       <Button

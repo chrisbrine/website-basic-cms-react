@@ -38,6 +38,9 @@ const dateStringShort = (date: Date) =>
 const dateStringLong = (date: Date) =>
   `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()} ${date.getHours()}:${date.getMinutes()}`;
 
+const dateStringBlog = (date: Date) =>
+  `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()} ${date.getHours() > 12 ? date.getHours() - 12 : date.getHours()}:${date.getMinutes()} ${date.getHours() > 12 ? 'PM' : 'AM'}`;
+
 const handleDateToString = (date: any, convert: (date: Date) => string) => {
   if (typeof date === 'number' || parseInt(date)) {
     const dateTime = new Date(parseInt(date) * 1000);
@@ -56,3 +59,6 @@ export const convertDateToString = (date: any) =>
 
 export const convertDateToStringFull = (date: any) =>
   handleDateToString(date, dateStringLong);
+
+export const processBlogDate = (date: any) =>
+  handleDateToString(date, dateStringBlog);

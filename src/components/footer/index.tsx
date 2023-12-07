@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import { getMainData } from '../../store';
-import './footer.css';
+import './footer.scss';
 
 export default function Footer() {
   const mainData = useSelector(getMainData);

@@ -24,7 +24,7 @@ class DropDown extends FieldBase {
       <select
         name={this.state.props.name}
         id={this.state.props.name}
-        value={this.state.value.toString()}
+        value={this.props.value.toString()}
         placeholder={this.state.props.placeholderHideOnFocus && focus
           ? ''
           : this.state.props.placeholder}
